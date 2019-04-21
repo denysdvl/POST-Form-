@@ -13,16 +13,16 @@ here you can see my form, you can have it differently and classes can be
 with a different name, just remember to change the names of the classes in JavaScripts
 
 ```html
-	<form action="#" class="main-form">
+<form action="#" class="main-form">
 							
-								<label class="popup-form__label" for="phone">
-								Enter your phone number:
-								</label>
-								<input class="popup-form__input" name="phone" type="tel" required placeholder="+48 (750) 321 322">
-								<button class="button popup-form__btn">
-									Submit your application!
-								</button>
-						</form>
+	<label class="popup-form__label" for="phone">
+	Enter your phone number:
+	</label>
+	<input class="popup-form__input" name="phone" type="tel" required placeholder="+48 (750) 321 322">
+	<button class="button popup-form__btn">
+	Submit your application!
+	</button>
+</form>
 ```
 
 With this line we do not allow our site to reboot.
