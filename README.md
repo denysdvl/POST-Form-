@@ -42,8 +42,8 @@ In this part of the code, the request is configured.
         request.open('POST', 'server.php');
         request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
 ```
-We write data from our targetEvent this is the same as form into a variable formData,
-we will re-convert it into the json format and send it to the server
+The FormData object allows you to create a set of key / value pairs and pass them using XMLHttpRequest
+and write them to a variable formData, we will re-convert it into the json format and send it to the server
 ```javascript
 	let formData = new FormData(targetEvent);
         
